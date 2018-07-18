@@ -2,6 +2,7 @@ const url = 'data.json';
 
 fetch(url)
   .then(response => {
+    return;
     if (!response.ok) {
       throw Error(response.statusText);
     }
