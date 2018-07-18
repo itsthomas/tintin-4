@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <title>TinTin with Handlebars JS</title>
+</head>
+<body>
+  
+  <ul id="container" class="cf"></ul>
+
+  <script id="ourTemplate" type="text/x-handlebars-template">
+      {{#each characters}}
+      <li class='list-container'>
+        <div class="image-container"><img src="{{image_url}}"></div>
+        <div class="content">
+          <h4>Name: {{name}}</h4>
+          <p>Job: {{job}}</p>
+          <p>Hobby: {{details.hobby}}</p>
+          <p>Age: {{details.age}}</p>
+          <button class="btn">More details ...</button>
+        </div>
+      </li>
+      <div class="details">{{details.about}}</div>
+      {{/each}}
+    </script>
+  
+    <script
+    src="https://code.jquery.com/jquery-2.2.4.js"
+    integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+    crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

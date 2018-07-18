@@ -1,0 +1,33 @@
+{
+  "characters": [{
+      "name": "TinTin",
+      "image_url": "images/tintin.jpg",
+      "job": "Reporter",
+      "details": {
+        "hobby": "Adventure",
+        "age": 26,
+        "about": "Tintin is the fictional hero of The Adventures of Tintin, the comics series by Belgian cartoonist Hergé. He is a reporter and adventurer who travels around the world with his dog Snowy."
+      }
+    },
+    {
+      "name": "Captain Haddock",
+      "image_url": "images/captain-haddock.jpg",
+      "job": "Salesman",
+      "details": {
+        "hobby": "Drinking Alcohol",
+        "age": 52,
+        "about": "Captain Haddock is a fictional character in The Adventures of Tintin, the comics series by Belgian cartoonist Hergé. He is Tintin's best friend, a seafaring pipe-smoking Merchant Marine Captain."
+      }
+    },
+    {
+      "name": "Professor Tournesol",
+      "image_url": "images/tournesol.png",
+      "job": "Scientist",
+      "details": {
+        "hobby": "Inventing things",
+        "age": 48,
+        "about": "Professor Calculus (French: Professeur Tournesol) is a fictional character in The Adventures of Tintin, the comics series by Belgian cartoonist Hergé."
+      }
+    }
+  ]
+}

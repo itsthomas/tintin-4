@@ -1,0 +1,12 @@
+{
+    "semi": true,
+    "printWidth": 100,
+    "singleQuote": true,
+
+    "overrides": [{
+        "files": "src/**/*.css",
+        "options": {
+            "singleQuote": false
+        }
+    }]
+}
